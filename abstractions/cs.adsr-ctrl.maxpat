@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 25.0, 69.0, 424.0, 234.0 ],
+		"rect" : [ 25.0, 69.0, 436.0, 234.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,7 +37,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 90.0, 105.0, 32.5, 20.0 ],
+					"patching_rect" : [ 120.0, 105.0, 32.5, 20.0 ],
 					"text" : "+ 1"
 				}
 
@@ -52,7 +52,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 222.0, 75.0, 83.0, 20.0 ],
+					"patching_rect" : [ 252.0, 75.0, 83.0, 20.0 ],
 					"text" : "unpack 50 50"
 				}
 
@@ -67,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 222.0, 15.0, 61.0, 20.0 ],
+					"patching_rect" : [ 252.0, 15.0, 61.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 222.0, 45.0, 108.0, 20.0 ],
+					"patching_rect" : [ 252.0, 45.0, 108.0, 20.0 ],
 					"text" : "patcherargs 50 50"
 				}
 
@@ -95,7 +95,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 360.0, 15.0, 25.0, 25.0 ]
+					"patching_rect" : [ 390.0, 15.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -107,7 +107,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 15.0, 25.0, 25.0 ]
+					"patching_rect" : [ 210.0, 15.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -121,7 +121,7 @@
 					"numinlets" : 5,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "", "" ],
-					"patching_rect" : [ 120.0, 165.0, 259.0, 20.0 ],
+					"patching_rect" : [ 150.0, 165.0, 259.0, 20.0 ],
 					"text" : "adsr~ 50 0 1 50 @legato 1"
 				}
 
@@ -136,7 +136,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 135.0, 51.0, 20.0 ],
+					"patching_rect" : [ 90.0, 135.0, 51.0, 20.0 ],
 					"text" : "pipe 51"
 				}
 
@@ -151,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 60.0, 75.0, 79.0, 20.0 ],
+					"patching_rect" : [ 90.0, 75.0, 79.0, 20.0 ],
 					"text" : "t 0 0"
 				}
 
@@ -164,10 +164,10 @@
 					"id" : "obj-29",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 15.0, 75.0, 34.0, 20.0 ],
-					"text" : "t 1 1"
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "int", "clear" ],
+					"patching_rect" : [ 15.0, 75.0, 64.0, 20.0 ],
+					"text" : "t 1 1 clear"
 				}
 
 			}
@@ -181,7 +181,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 15.0, 45.0, 109.0, 20.0 ],
+					"patching_rect" : [ 15.0, 45.0, 169.0, 20.0 ],
 					"text" : "sel 1 0"
 				}
 
@@ -193,7 +193,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 15.0, 15.0, 25.0, 25.0 ]
 				}
 
@@ -216,7 +216,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 195.0, 25.0, 25.0 ]
+					"patching_rect" : [ 150.0, 195.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -244,7 +244,7 @@
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 369.5, 100.0, 99.5, 100.0 ],
+					"midpoints" : [ 399.5, 100.0, 129.5, 100.0 ],
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -290,8 +290,17 @@
 					"destination" : [ "obj-20", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 24.5, 160.5, 129.5, 160.5 ],
+					"midpoints" : [ 24.5, 160.5, 159.5, 160.5 ],
 					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-29", 2 ]
 				}
 
 			}

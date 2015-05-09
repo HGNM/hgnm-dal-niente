@@ -43,7 +43,7 @@
 					}
 ,
 					"text" : "autopattr",
-					"varname" : "u895012914"
+					"varname" : "u188015363"
 				}
 
 			}
@@ -59,7 +59,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 180.0, 15.0, 58.0, 36.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 98.0, 1.5, 58.0, 36.0 ],
+					"presentation_rect" : [ 98.0, 3.5, 58.0, 36.0 ],
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -151,7 +151,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 15.0, 15.0, 96.0, 40.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 2.0, 96.0, 40.0 ],
+					"presentation_rect" : [ 0.0, 4.0, 96.0, 40.0 ],
 					"prototypename" : "pan",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{

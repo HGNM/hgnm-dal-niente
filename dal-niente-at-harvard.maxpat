@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 59.0, 121.0, 232.0, 368.0 ],
+		"rect" : [ 59.0, 44.0, 225.0, 445.0 ],
 		"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
@@ -29,6 +29,75 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"frgb" : 0.0,
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 225.0, 17.0 ],
+					"text" : "S U B P A T C H E S",
+					"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"frgb" : 0.0,
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 90.0, 225.0, 17.0 ],
+					"presentation_rect" : [ 19.0, 133.0, 0.0, 0.0 ],
+					"text" : "P R E S E T   S T O R A G E",
+					"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"frgb" : 0.0,
+					"id" : "obj-4",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 180.0, 225.0, 17.0 ],
+					"presentation_rect" : [ 17.0, 138.0, 0.0, 0.0 ],
+					"text" : "G L O B A L   V A R I A B L E S",
+					"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
+					"textjustification" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Helvetica Neue",
+					"fontsize" : 12.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 93.0, 120.0, 102.0, 20.0 ],
+					"text" : "cs.2click-presets"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 12.0,
@@ -84,7 +153,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u781011712"
+									"varname" : "u207003952"
 								}
 
 							}
@@ -1028,7 +1097,7 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1095.0, 345.0, 120.0, 30.0 ],
+									"patching_rect" : [ 285.0, 270.0, 120.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 285.0, 270.0, 120.0, 30.0 ]
 								}
@@ -1042,7 +1111,7 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 390.0, 345.0, 120.0, 30.0 ],
+									"patching_rect" : [ 150.0, 270.0, 120.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 150.0, 270.0, 120.0, 30.0 ]
 								}
@@ -1255,7 +1324,7 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 6,
 									"numoutlets" : 0,
-									"patching_rect" : [ 14.0, 345.0, 120.0, 105.0 ],
+									"patching_rect" : [ 15.0, 270.0, 120.0, 105.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 270.0, 120.0, 105.0 ]
 								}
@@ -1848,7 +1917,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 15.0, 91.0, 20.0 ],
+					"patching_rect" : [ 15.0, 30.0, 91.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
@@ -1923,7 +1992,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u116009339"
+									"varname" : "u901003927"
 								}
 
 							}
@@ -2578,7 +2647,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 120.0, 15.0, 75.0, 20.0 ],
+					"patching_rect" : [ 120.0, 30.0, 75.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
@@ -3207,7 +3276,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 15.0, 45.0, 92.0, 20.0 ],
+					"patching_rect" : [ 15.0, 60.0, 92.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
@@ -3236,7 +3305,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 225.0, 164.0, 17.0 ],
+					"patching_rect" : [ 0.0, 300.0, 225.0, 17.0 ],
 					"text" : "U T I L I T I E S",
 					"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 					"textjustification" : 1
@@ -3253,7 +3322,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 15.0, 255.0, 61.0, 20.0 ],
+					"patching_rect" : [ 15.0, 330.0, 61.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -3268,7 +3337,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 285.0, 167.0, 32.0 ],
+					"patching_rect" : [ 15.0, 360.0, 167.0, 32.0 ],
 					"text" : ";\rmax sortpatcherdictonsave 1"
 				}
 
@@ -3283,7 +3352,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 195.0, 114.0, 20.0 ],
+					"patching_rect" : [ 15.0, 270.0, 114.0, 20.0 ],
 					"text" : "v hgnm.patch_path"
 				}
 
@@ -3298,7 +3367,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 135.0, 90.0, 20.0 ],
+					"patching_rect" : [ 15.0, 210.0, 90.0, 20.0 ],
 					"text" : "loadmess path"
 				}
 
@@ -3313,7 +3382,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 165.0, 71.0, 20.0 ],
+					"patching_rect" : [ 15.0, 240.0, 71.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -3329,9 +3398,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 15.0, 75.0, 59.5, 20.0 ],
+					"patching_rect" : [ 15.0, 120.0, 59.5, 20.0 ],
 					"text" : "autopattr",
-					"varname" : "u507011588"
+					"varname" : "u480003953"
 				}
 
 			}
@@ -3345,7 +3414,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 105.0, 192.0, 20.0 ],
+					"patching_rect" : [ 15.0, 150.0, 192.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 816, 272, 1203, 621 ],
 						"parameter_enable" : 0,
@@ -3387,17 +3456,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-4" : [ "ian-white-noise-gain~", "gain", 0 ],
-			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ],
 			"obj-1::obj-18::obj-25" : [ "pedal-on-off", "pedal-switch", 0 ],
-			"obj-2::obj-45" : [ "kai-conductor-click-gain", "conductor click", 0 ],
+			"obj-1::obj-1::obj-74" : [ "ian-width", "width", 0 ],
+			"obj-2::obj-7" : [ "kai-tape-gain", "tape", 0 ],
+			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ],
+			"obj-2::obj-9" : [ "kai-violin-click-gain", "violin click", 0 ],
+			"obj-1::obj-18::obj-26" : [ "test-indicator", "test", 0 ],
+			"obj-1::obj-4" : [ "ian-white-noise-gain~", "gain", 0 ],
 			"obj-1::obj-1::obj-45" : [ "ian-pan", "pan", 0 ],
 			"obj-1::obj-9" : [ "power-attack-time", "attack", 0 ],
-			"obj-1::obj-10" : [ "power-release-time", "release", 0 ],
-			"obj-2::obj-7" : [ "kai-tape-gain", "tape", 0 ],
-			"obj-1::obj-18::obj-26" : [ "test-indicator", "test", 0 ],
-			"obj-2::obj-9" : [ "kai-violin-click-gain", "violin click", 0 ],
-			"obj-1::obj-1::obj-74" : [ "ian-width", "width", 0 ]
+			"obj-2::obj-45" : [ "kai-conductor-click-gain", "conductor click", 0 ],
+			"obj-1::obj-10" : [ "power-release-time", "release", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3517,6 +3586,13 @@
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/hgnm-dal-niente/data",
 				"patcherrelativepath" : "./data",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "cs.2click-presets.maxpat",
+				"bootpath" : "/Users/chris/Desktop/desktop/Max/hgnm-dal-niente/externals/cs.2click",
+				"patcherrelativepath" : "./externals/cs.2click",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ]

@@ -8,7 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 17.0, 65.0, 232.0, 368.0 ],
+		"rect" : [ 59.0, 121.0, 232.0, 368.0 ],
+		"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +45,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 0.0, 44.0, 525.0, 391.0 ],
+						"rect" : [ 319.0, 112.0, 525.0, 391.0 ],
 						"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -67,6 +68,28 @@
 						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
+									"color" : [ 0.4, 0.4, 0.8, 1.0 ],
+									"fontname" : "Helvetica Neue",
+									"fontsize" : 12.0,
+									"id" : "obj-40",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 4,
+									"outlettype" : [ "", "", "", "" ],
+									"patching_rect" : [ 165.0, 585.0, 59.5, 20.0 ],
+									"restore" : 									{
+										"kai-conductor-click-gain" : [ -18.148148 ],
+										"kai-tape-gain" : [ -6.0 ],
+										"kai-violin-click-gain" : [ -6.0 ]
+									}
+,
+									"text" : "autopattr",
+									"varname" : "u781011712"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 									"fontface" : 1,
 									"fontname" : "Arial",
@@ -76,7 +99,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 45.0, 45.0, 420.0, 17.0 ],
+									"patching_rect" : [ 15.0, 465.0, 60.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 105.0, 525.0, 17.0 ],
 									"text" : "O U T P U T",
@@ -96,7 +119,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 30.0, 420.0, 17.0 ],
+									"patching_rect" : [ 600.0, 15.0, 420.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 270.0, 0.0, 255.0, 17.0 ],
 									"text" : "M O V E M E N T   I V",
@@ -116,7 +139,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 15.0, 420.0, 17.0 ],
+									"patching_rect" : [ 0.0, 15.0, 585.0, 17.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 0.0, 255.0, 17.0 ],
 									"text" : "M O V E M E N T   I I",
@@ -1382,7 +1405,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 253.0, 15.0, 225.0, 101.5 ],
+									"patching_rect" : [ 600.0, 31.75, 420.0, 106.5 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 270.0, 15.0, 255.0, 75.0 ],
 									"rounded" : 0
@@ -1400,7 +1423,7 @@
 									"mode" : 1,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 240.0, 91.25, 225.0, 101.5 ],
+									"patching_rect" : [ 0.0, 29.25, 585.0, 109.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 15.0, 255.0, 75.0 ],
 									"rounded" : 0
@@ -1861,7 +1884,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 870.0, 150.0, 285.0, 345.0 ],
+						"rect" : [ 871.0, 125.0, 285.0, 345.0 ],
 						"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -2350,7 +2373,7 @@
 									"snapto" : 2,
 									"ticks" : 1,
 									"vlabels" : 1,
-									"waveformcolor" : [ 1.0, 0.403922, 0.0, 1.0 ]
+									"waveformcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ]
 								}
 
 							}
@@ -2591,7 +2614,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 30.0, 647.0, 1171.0, 136.0 ],
+						"rect" : [ 29.0, 590.0, 1171.0, 136.0 ],
 						"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -3213,7 +3236,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 75.0, 164.0, 17.0 ],
+					"patching_rect" : [ 15.0, 225.0, 164.0, 17.0 ],
 					"text" : "U T I L I T I E S",
 					"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 					"textjustification" : 1
@@ -3230,7 +3253,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 15.0, 105.0, 61.0, 20.0 ],
+					"patching_rect" : [ 15.0, 255.0, 61.0, 20.0 ],
 					"text" : "loadbang"
 				}
 
@@ -3245,7 +3268,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 135.0, 167.0, 32.0 ],
+					"patching_rect" : [ 15.0, 285.0, 167.0, 32.0 ],
 					"text" : ";\rmax sortpatcherdictonsave 1"
 				}
 
@@ -3260,7 +3283,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 300.0, 114.0, 20.0 ],
+					"patching_rect" : [ 15.0, 195.0, 114.0, 20.0 ],
 					"text" : "v hgnm.patch_path"
 				}
 
@@ -3275,7 +3298,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 240.0, 90.0, 20.0 ],
+					"patching_rect" : [ 15.0, 135.0, 90.0, 20.0 ],
 					"text" : "loadmess path"
 				}
 
@@ -3290,7 +3313,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 270.0, 71.0, 20.0 ],
+					"patching_rect" : [ 15.0, 165.0, 71.0, 20.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -3306,7 +3329,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 15.0, 180.0, 59.5, 20.0 ],
+					"patching_rect" : [ 15.0, 75.0, 59.5, 20.0 ],
 					"text" : "autopattr",
 					"varname" : "u507011588"
 				}
@@ -3322,9 +3345,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 210.0, 192.0, 20.0 ],
+					"patching_rect" : [ 15.0, 105.0, 192.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 626, 79, 1013, 349 ],
+						"client_rect" : [ 816, 272, 1203, 621 ],
 						"parameter_enable" : 0,
 						"storage_rect" : [ 766, 44, 1220, 302 ]
 					}

@@ -1,0 +1,66 @@
+{
+	"pattrstorage" : 	{
+		"name" : "composer-presets",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"IanPower::ian-white-noise-gain~" : [ -6.0 ],
+					"IanPower::power-attack-time" : [ 50.0 ],
+					"IanPower::power-release-time" : [ 1000.0 ],
+					"IanPower::midi-input-device" : [  ],
+					"IanPower::ian-pedal::pedal-on-off" : [ 0.0 ],
+					"IanPower::ian-pedal::pedal-polarity" : [ 0.0 ],
+					"IanPower::ian-pedal::test-indicator" : [ 0.0 ],
+					"IanPower::ian-pan-ctrl::ian-pan" : [ 0.0 ],
+					"IanPower::ian-pan-ctrl::ian-width" : [ 33.333 ],
+					"KaiPolzhofer::kai-conductor-click-gain" : [ -18.148148 ],
+					"KaiPolzhofer::kai-tape-gain" : [ -6.0 ],
+					"KaiPolzhofer::kai-violin-click-gain" : [ -6.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"IanPower::ian-white-noise-gain~" : [ -6.0 ],
+					"IanPower::power-attack-time" : [ 50.0 ],
+					"IanPower::power-release-time" : [ 850.0 ],
+					"IanPower::midi-input-device" : [ "IAC Driver Bus 1" ],
+					"IanPower::ian-pedal::pedal-on-off" : [ 0.0 ],
+					"IanPower::ian-pedal::pedal-polarity" : [ 0.0 ],
+					"IanPower::ian-pedal::test-indicator" : [ 0.0 ],
+					"IanPower::ian-pan-ctrl::ian-pan" : [ 0.0 ],
+					"IanPower::ian-pan-ctrl::ian-width" : [ 33.333 ],
+					"KaiPolzhofer::kai-conductor-click-gain" : [ -18.148148 ],
+					"KaiPolzhofer::kai-tape-gain" : [ -6.0 ],
+					"KaiPolzhofer::kai-violin-click-gain" : [ -6.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"IanPower::ian-white-noise-gain~" : [ -6.0 ],
+					"IanPower::power-attack-time" : [ 50.0 ],
+					"IanPower::power-release-time" : [ 1000.0 ],
+					"IanPower::midi-input-device" : [  ],
+					"IanPower::ian-pedal::pedal-on-off" : [ 0.0 ],
+					"IanPower::ian-pedal::pedal-polarity" : [ 0.0 ],
+					"IanPower::ian-pedal::test-indicator" : [ 0.0 ],
+					"IanPower::ian-pan-ctrl::ian-pan" : [ 0.0 ],
+					"IanPower::ian-pan-ctrl::ian-width" : [ 33.333 ],
+					"KaiPolzhofer::kai-conductor-click-gain" : [ -18.148148 ],
+					"KaiPolzhofer::kai-tape-gain" : [ -6.0 ],
+					"KaiPolzhofer::kai-violin-click-gain" : [ -6.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

@@ -1104,7 +1104,7 @@
 					"framecolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 					"hltcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
 					"id" : "obj-37",
-					"items" : [ "select composer…", ",", "Ian Power", ",", "Kai Polzhofer" ],
+					"items" : [ "select composer…", ",", "Ian Power", ",", "Kai Polzhofer", ",", "Kai - Stereo Tape" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1320,8 +1320,8 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 15.0, 495.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"kai-conductor-click-gain" : [ -18.148148 ],
-										"kai-tape-gain" : [ -6.0 ],
+										"kai-conductor-click-gain" : [ -6.0 ],
+										"kai-tape-gain" : [ 6.0 ],
 										"kai-violin-click-gain" : [ -6.0 ]
 									}
 ,

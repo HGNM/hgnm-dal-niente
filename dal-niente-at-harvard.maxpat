@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 84.0, 101.0, 210.0, 335.0 ],
+		"rect" : [ 92.0, 178.0, 210.0, 335.0 ],
 		"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -67,7 +67,6 @@
 						"digest" : "",
 						"tags" : "",
 						"title" : "DAC: Click Outputs",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"bgcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
@@ -1321,12 +1320,12 @@
 									"patching_rect" : [ 15.0, 495.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"kai-conductor-click-gain" : [ -6.0 ],
-										"kai-tape-gain" : [ 6.0 ],
+										"kai-tape-gain" : [ -6.0 ],
 										"kai-violin-click-gain" : [ -6.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u818013883"
+									"varname" : "u926010180"
 								}
 
 							}
@@ -2272,7 +2271,7 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 285.0, 270.0, 120.0, 30.0 ],
+									"patching_rect" : [ 285.0, 285.0, 120.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 285.0, 285.0, 120.0, 30.0 ]
 								}
@@ -2286,7 +2285,7 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 150.0, 270.0, 120.0, 30.0 ],
+									"patching_rect" : [ 150.0, 285.0, 120.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 150.0, 285.0, 120.0, 30.0 ]
 								}
@@ -2500,7 +2499,7 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 6,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 270.0, 120.0, 105.0 ],
+									"patching_rect" : [ 15.0, 285.0, 120.0, 105.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 285.0, 120.0, 105.0 ]
 								}
@@ -3239,13 +3238,13 @@
 									"patching_rect" : [ 360.5, 460.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"ian-white-noise-gain~" : [ -6.0 ],
-										"midi-input-device" : [ "IAC Driver Bus 1" ],
+										"midi-input-device" : [ "USB O2" ],
 										"power-attack-time" : [ 50.0 ],
 										"power-release-time" : [ 1000.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u259014230"
+									"varname" : "u209010155"
 								}
 
 							}
@@ -3528,7 +3527,7 @@
 									"framecolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"hltcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
 									"id" : "obj-37",
-									"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2" ],
+									"items" : [ "IAC Driver Bus 1", ",", "Fireface 800 (DE8) Port 1", ",", "to Max 1", ",", "to Max 2", ",", "Fireface 800 (DE8) Port 1", ",", "USB O2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3595,6 +3594,7 @@
 									"channels" : 1,
 									"id" : "obj-4",
 									"maxclass" : "live.gain~",
+									"metering" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"orientation" : 1,
@@ -3924,7 +3924,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 25.0, 618.0, 1171.0, 136.0 ],
+						"rect" : [ 26.0, 579.0, 1171.0, 136.0 ],
 						"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -3958,7 +3958,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 960.0, 4.0, 120.0, 26.0 ],
-									"text" : "8",
+									"text" : "8 — 20",
 									"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 									"textjustification" : 1
 								}
@@ -3976,7 +3976,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 825.0, 4.0, 120.0, 26.0 ],
-									"text" : "7",
+									"text" : "7 — 19",
 									"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 									"textjustification" : 1
 								}
@@ -3994,7 +3994,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 690.0, 4.0, 120.0, 26.0 ],
-									"text" : "6",
+									"text" : "6 — 18",
 									"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 									"textjustification" : 1
 								}
@@ -4012,7 +4012,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 555.0, 4.0, 120.0, 26.0 ],
-									"text" : "5",
+									"text" : "5 — 17",
 									"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 									"textjustification" : 1
 								}
@@ -4030,7 +4030,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 420.0, 4.0, 120.0, 26.0 ],
-									"text" : "4",
+									"text" : "4 — 16",
 									"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 									"textjustification" : 1
 								}
@@ -4048,7 +4048,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 285.0, 4.0, 120.0, 26.0 ],
-									"text" : "3",
+									"text" : "3 — 15",
 									"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 									"textjustification" : 1
 								}
@@ -4066,7 +4066,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 150.0, 4.0, 120.0, 26.0 ],
-									"text" : "2",
+									"text" : "2 — 14",
 									"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 									"textjustification" : 1
 								}
@@ -4084,7 +4084,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 4.0, 120.0, 26.0 ],
-									"text" : "1",
+									"text" : "1 — 13",
 									"textcolor" : [ 0.96, 0.96, 0.96, 1.0 ],
 									"textjustification" : 1
 								}
@@ -4221,7 +4221,7 @@
 									"numinlets" : 8,
 									"numoutlets" : 0,
 									"patching_rect" : [ 15.0, 105.0, 964.0, 20.0 ],
-									"text" : "dac~ 1 2 3 4 5 6 7 8"
+									"text" : "dac~ 13 14 15 16 17 18 19 20"
 								}
 
 							}
@@ -4939,17 +4939,17 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-18::obj-25" : [ "pedal-on-off", "pedal-switch", 0 ],
-			"obj-1::obj-9" : [ "power-attack-time", "attack", 0 ],
-			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ],
-			"obj-2::obj-45" : [ "kai-conductor-click-gain", "conductor click", 0 ],
-			"obj-1::obj-10" : [ "power-release-time", "release", 0 ],
-			"obj-1::obj-18::obj-26" : [ "test-indicator", "test", 0 ],
-			"obj-2::obj-7" : [ "kai-tape-gain", "tape", 0 ],
-			"obj-1::obj-1::obj-74" : [ "ian-width", "width", 0 ],
-			"obj-2::obj-9" : [ "kai-violin-click-gain", "violin click", 0 ],
 			"obj-1::obj-4" : [ "ian-white-noise-gain~", "gain", 0 ],
-			"obj-1::obj-1::obj-45" : [ "ian-pan", "pan", 0 ]
+			"obj-1::obj-18::obj-26" : [ "test-indicator", "test", 0 ],
+			"obj-1::obj-1::obj-45" : [ "ian-pan", "pan", 0 ],
+			"obj-2::obj-45" : [ "kai-conductor-click-gain", "conductor click", 0 ],
+			"obj-1::obj-9" : [ "power-attack-time", "attack", 0 ],
+			"obj-2::obj-7" : [ "kai-tape-gain", "tape", 0 ],
+			"obj-1::obj-10" : [ "power-release-time", "release", 0 ],
+			"obj-1::obj-18::obj-25" : [ "pedal-on-off", "pedal-switch", 0 ],
+			"obj-2::obj-9" : [ "kai-violin-click-gain", "violin click", 0 ],
+			"obj-1::obj-1::obj-74" : [ "ian-width", "width", 0 ],
+			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

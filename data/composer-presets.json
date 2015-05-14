@@ -69,6 +69,23 @@
 				}
 
 			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"IanPower::ian-white-noise-gain~" : [ -6.0 ],
+					"IanPower::midi-input-device" : [  ],
+					"IanPower::power-attack-time" : [ 50.0 ],
+					"IanPower::power-release-time" : [ 1000.0 ],
+					"IanPower::ian-pedal::pedal-on-off" : [ 0.0 ],
+					"IanPower::ian-pedal::pedal-polarity" : [ 0.0 ],
+					"IanPower::ian-pedal::test-indicator" : [ 0.0 ],
+					"KaiPolzhofer::kai-conductor-click-gain" : [ -6.0 ],
+					"KaiPolzhofer::kai-tape-gain" : [ -6.0 ],
+					"KaiPolzhofer::kai-violin-click-gain" : [ -6.0 ]
+				}
+
+			}
 
 		}
 

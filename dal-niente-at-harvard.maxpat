@@ -1210,7 +1210,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 342.0, 129.0, 525.0, 406.0 ],
+						"rect" : [ 337.0, 125.0, 525.0, 406.0 ],
 						"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -1232,7 +1232,6 @@
 						"tags" : "",
 						"showontab" : 0,
 						"title" : "Kai Johannes Polzhofer: “Keiner kennt seinen eigenen Namen, keiner kennt sein wirkliches Antlitz” (Léon Bloy)",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Helvetica Neue",
@@ -1325,7 +1324,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u926010180"
+									"varname" : "u544004630"
 								}
 
 							}
@@ -3171,7 +3170,7 @@
 							"architecture" : "x86"
 						}
 ,
-						"rect" : [ 893.0, 157.0, 285.0, 345.0 ],
+						"rect" : [ 324.0, 174.0, 285.0, 302.0 ],
 						"bgcolor" : [ 0.7, 0.7, 0.7, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -3194,6 +3193,38 @@
 						"title" : "Ian Power: bind me, take me, amplifier, humidifier",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"bgcolor" : [ 0.57, 0.62, 0.66, 1.0 ],
+									"bgoncolor" : [ 0.047059, 0.972549, 0.392157, 1.0 ],
+									"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
+									"bgoveroncolor" : [ 0.129455, 0.990526, 0.399839, 1.0 ],
+									"border" : 1,
+									"bordercolor" : [ 0.27, 0.33, 0.4, 1.0 ],
+									"borderoncolor" : [ 0.27, 0.33, 0.4, 1.0 ],
+									"fontface" : 1,
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"id" : "obj-22",
+									"maxclass" : "textbutton",
+									"mode" : 1,
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "int" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 15.0, 150.0, 40.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 15.0, 177.0, 40.0, 20.0 ],
+									"rounded" : 0.0,
+									"text" : "OFF",
+									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"texton" : "ON",
+									"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"textoveroncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"bgcolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"bgoncolor" : [ 0.921569, 0.94902, 0.05098, 1.0 ],
@@ -3235,16 +3266,16 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 360.5, 460.0, 59.5, 20.0 ],
+									"patching_rect" : [ 360.5, 370.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"ian-white-noise-gain~" : [ -6.0 ],
+										"ian-white-noise-gain~" : [ -43.715481 ],
 										"midi-input-device" : [ "USB O2" ],
-										"power-attack-time" : [ 50.0 ],
-										"power-release-time" : [ 1000.0 ]
+										"power-attack-time" : [ 30.0 ],
+										"power-release-time" : [ 250.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u209010155"
+									"varname" : "u847004605"
 								}
 
 							}
@@ -3390,69 +3421,6 @@
 							}
 , 							{
 								"box" : 								{
-									"bgcolor" : [ 0.57, 0.62, 0.66, 1.0 ],
-									"bgoncolor" : [ 0.047059, 0.972549, 0.392157, 1.0 ],
-									"bgovercolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
-									"bgoveroncolor" : [ 0.129455, 0.990526, 0.399839, 1.0 ],
-									"border" : 1,
-									"bordercolor" : [ 0.27, 0.33, 0.4, 1.0 ],
-									"borderoncolor" : [ 0.27, 0.33, 0.4, 1.0 ],
-									"fontface" : 1,
-									"fontname" : "Arial",
-									"fontsize" : 10.0,
-									"id" : "obj-22",
-									"maxclass" : "textbutton",
-									"mode" : 1,
-									"numinlets" : 1,
-									"numoutlets" : 3,
-									"outlettype" : [ "", "", "int" ],
-									"parameter_enable" : 0,
-									"patching_rect" : [ 15.0, 150.0, 40.0, 20.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 225.0, 40.0, 20.0 ],
-									"rounded" : 0.0,
-									"text" : "OFF",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"texton" : "ON",
-									"textoncolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"textovercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"textoveroncolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"args" : [ "ian" ],
-									"id" : "obj-1",
-									"maxclass" : "bpatcher",
-									"name" : "cs.pan-ctrl.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 2,
-									"outlettype" : [ "signal", "float" ],
-									"patching_rect" : [ 30.0, 330.0, 150.0, 45.0 ],
-									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 165.0, 150.0, 45.0 ],
-									"varname" : "ian-pan-ctrl"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 0.760784, 0.709804, 0.811765, 1.0 ],
-									"fontname" : "Helvetica Neue",
-									"fontsize" : 12.0,
-									"id" : "obj-46",
-									"maxclass" : "newobj",
-									"numinlets" : 5,
-									"numoutlets" : 3,
-									"outlettype" : [ "signal", "signal", "signal" ],
-									"patching_rect" : [ 15.0, 390.0, 119.5, 20.0 ],
-									"text" : "z.pan3s 0.666 0. 0.5"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"color" : [ 0.8, 0.84, 0.7, 1.0 ],
 									"fontname" : "Helvetica Neue",
 									"fontsize" : 12.0,
@@ -3474,9 +3442,9 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 3,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 270.0, 120.0, 60.0 ],
+									"patching_rect" : [ 15.0, 330.0, 120.0, 60.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 15.0, 270.0, 120.0, 60.0 ]
+									"presentation_rect" : [ 15.0, 225.0, 120.0, 60.0 ]
 								}
 
 							}
@@ -3527,7 +3495,7 @@
 									"framecolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"hltcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
 									"id" : "obj-37",
-									"items" : [ "IAC Driver Bus 1", ",", "Fireface 800 (DE8) Port 1", ",", "to Max 1", ",", "to Max 2", ",", "Fireface 800 (DE8) Port 1", ",", "USB O2" ],
+									"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2", ",", "USB O2", ",", "Fireface 800 (DE8) Port 1" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -3594,7 +3562,6 @@
 									"channels" : 1,
 									"id" : "obj-4",
 									"maxclass" : "live.gain~",
-									"metering" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"orientation" : 1,
@@ -3602,7 +3569,7 @@
 									"parameter_enable" : 1,
 									"patching_rect" : [ 15.0, 285.0, 150.0, 31.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 75.0, 225.0, 194.0, 31.0 ],
+									"presentation_rect" : [ 75.0, 174.0, 90.0, 31.0 ],
 									"saved_attribute_attributes" : 									{
 										"valueof" : 										{
 											"parameter_linknames" : 1,
@@ -3657,7 +3624,7 @@
 									"outmode" : 0,
 									"patching_rect" : [ 195.0, 255.0, 225.0, 61.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 150.0, 270.0, 120.0, 60.0 ],
+									"presentation_rect" : [ 150.0, 225.0, 120.0, 60.0 ],
 									"prototypename" : "M4L.orange",
 									"selectioncolor" : [ 0.666667, 0.698039, 0.717647, 0.25098 ],
 									"setmode" : 1,
@@ -3678,7 +3645,7 @@
 									"maxclass" : "panel",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 89.0, 150.0, 122.0, 20.0 ],
+									"patching_rect" : [ 209.0, 89.0, 122.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 137.0, 49.0, 131.0, 20.0 ],
 									"rounded" : 0
@@ -3720,24 +3687,6 @@
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-46", 2 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-46", 1 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-50", 2 ],
 									"disabled" : 0,
@@ -3822,7 +3771,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-46", 0 ],
+									"destination" : [ "obj-19", 2 ],
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-4", 0 ]
@@ -3831,19 +3780,10 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-19", 2 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-46", 2 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-19", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-46", 1 ]
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -3852,7 +3792,7 @@
 									"destination" : [ "obj-19", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-46", 0 ]
+									"source" : [ "obj-4", 0 ]
 								}
 
 							}
@@ -4939,17 +4879,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-4" : [ "ian-white-noise-gain~", "gain", 0 ],
 			"obj-1::obj-18::obj-26" : [ "test-indicator", "test", 0 ],
-			"obj-1::obj-1::obj-45" : [ "ian-pan", "pan", 0 ],
 			"obj-2::obj-45" : [ "kai-conductor-click-gain", "conductor click", 0 ],
 			"obj-1::obj-9" : [ "power-attack-time", "attack", 0 ],
 			"obj-2::obj-7" : [ "kai-tape-gain", "tape", 0 ],
 			"obj-1::obj-10" : [ "power-release-time", "release", 0 ],
 			"obj-1::obj-18::obj-25" : [ "pedal-on-off", "pedal-switch", 0 ],
 			"obj-2::obj-9" : [ "kai-violin-click-gain", "violin click", 0 ],
-			"obj-1::obj-1::obj-74" : [ "ian-width", "width", 0 ],
-			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ]
+			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ],
+			"obj-1::obj-4" : [ "ian-white-noise-gain~", "gain", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5005,27 +4943,6 @@
 				"name" : "cs.2click-send~.maxpat",
 				"bootpath" : "/Users/chris/Desktop/desktop/Max/hgnm-dal-niente/externals/cs.2click",
 				"patcherrelativepath" : "./externals/cs.2click",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "z.pan3s.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/hgnm-dal-niente/externals/z.abstractions/z.abstractions_patches/z.panning",
-				"patcherrelativepath" : "./externals/z.abstractions/z.abstractions_patches/z.panning",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "z.scale.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/hgnm-dal-niente/externals/z.abstractions/z.abstractions_patches/z.scale",
-				"patcherrelativepath" : "./externals/z.abstractions/z.abstractions_patches/z.scale",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cs.pan-ctrl.maxpat",
-				"bootpath" : "/Users/chris/Desktop/desktop/Max/hgnm-dal-niente/abstractions",
-				"patcherrelativepath" : "./abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

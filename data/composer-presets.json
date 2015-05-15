@@ -46,7 +46,7 @@
 					"IanPower::ian-pedal::pedal-on-off" : [ 0.0 ],
 					"IanPower::ian-pedal::pedal-polarity" : [ 0.0 ],
 					"IanPower::ian-pedal::test-indicator" : [ 0.0 ],
-					"KaiPolzhofer::kai-conductor-click-gain" : [ 0.0 ],
+					"KaiPolzhofer::kai-conductor-click-gain" : [ 5.984252 ],
 					"KaiPolzhofer::kai-tape-gain" : [ -6.0 ],
 					"KaiPolzhofer::kai-violin-click-gain" : [ 0.0 ]
 				}

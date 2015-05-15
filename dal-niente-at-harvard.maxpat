@@ -1985,7 +1985,26 @@
 						"tags" : "",
 						"showontab" : 0,
 						"title" : "Kai Johannes Polzhofer: “Keiner kennt seinen eigenen Namen, keiner kennt sein wirkliches Antlitz” (Léon Bloy)",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 10.0,
+									"frgb" : 0.0,
+									"id" : "obj-38",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 150.0, 330.0, 127.0, 29.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 83.0, 214.0, 18.0 ],
+									"text" : "bar numbers always refer to the violinist’s part",
+									"textcolor" : [ 0.5, 0.5, 0.5, 1.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Helvetica Neue",
 									"fontsize" : 12.0,
@@ -2100,13 +2119,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 15.0, 495.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"kai-conductor-click-gain" : [ -6.0 ],
+										"kai-conductor-click-gain" : [ 5.984252 ],
 										"kai-tape-gain" : [ -6.0 ],
-										"kai-violin-click-gain" : [ -6.0 ]
+										"kai-violin-click-gain" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u963012460"
+									"varname" : "u602010514"
 								}
 
 							}
@@ -3259,15 +3278,16 @@
 									"fontsize" : 12.0,
 									"frgb" : 0.0,
 									"id" : "obj-49",
-									"linecount" : 9,
+									"linecount" : 11,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 135.0, 345.0, 69.0, 114.0 ],
+									"patching_rect" : [ 135.0, 345.0, 69.0, 138.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 9,
-									"presentation_rect" : [ 435.0, 165.0, 69.0, 114.0 ],
-									"text" : "front\n\n-  6  -\n\n1     2\n\n4  3  5\n\nback",
+									"presentation_linecount" : 11,
+									"presentation_rect" : [ 443.0, 150.0, 69.0, 138.0 ],
+									"text" : "tape:\n\nfront\n\n-  6  -\n\n1     2\n\n4  3  5\n\nback",
+									"textcolor" : [ 0.25, 0.25, 0.25, 1.0 ],
 									"textjustification" : 1
 								}
 
@@ -4088,13 +4108,13 @@
 									"patching_rect" : [ 360.5, 370.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"ian-white-noise-gain~" : [ -6.0 ],
-										"midi-input-device" : [ "USB O2" ],
+										"midi-input-device" : [ "IAC Driver Bus 1" ],
 										"power-attack-time" : [ 50.0 ],
 										"power-release-time" : [ 1000.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u270012435"
+									"varname" : "u292010489"
 								}
 
 							}
@@ -4314,7 +4334,7 @@
 									"framecolor" : [ 0.568627, 0.619608, 0.662745, 1.0 ],
 									"hltcolor" : [ 0.984314, 0.819608, 0.05098, 1.0 ],
 									"id" : "obj-37",
-									"items" : [ "IAC Driver Bus 1", ",", "to Max 1", ",", "to Max 2", ",", "USB O2", ",", "Fireface 800 (DE8) Port 1" ],
+									"items" : [ "IAC Driver Bus 1", ",", "USB O2", ",", "Fireface 800 (DE8) Port 1", ",", "to Max 1", ",", "to Max 2" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -5726,15 +5746,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-13::obj-6" : [ "soundflower-input-gain", "soundflower input", 0 ],
-			"obj-1::obj-18::obj-26" : [ "test-indicator", "test", 0 ],
+			"obj-1::obj-18::obj-25" : [ "pedal-on-off", "pedal-switch", 0 ],
 			"obj-2::obj-45" : [ "kai-conductor-click-gain", "conductor click", 0 ],
+			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ],
 			"obj-1::obj-9" : [ "power-attack-time", "attack", 0 ],
 			"obj-2::obj-7" : [ "kai-tape-gain", "tape", 0 ],
+			"obj-1::obj-18::obj-26" : [ "test-indicator", "test", 0 ],
 			"obj-1::obj-10" : [ "power-release-time", "release", 0 ],
-			"obj-1::obj-18::obj-25" : [ "pedal-on-off", "pedal-switch", 0 ],
 			"obj-2::obj-9" : [ "kai-violin-click-gain", "violin click", 0 ],
-			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ],
+			"obj-13::obj-6" : [ "soundflower-input-gain", "soundflower input", 0 ],
 			"obj-1::obj-4" : [ "ian-white-noise-gain~", "gain", 0 ]
 		}
 ,

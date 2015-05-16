@@ -1985,7 +1985,6 @@
 						"tags" : "",
 						"showontab" : 0,
 						"title" : "Kai Johannes Polzhofer: “Keiner kennt seinen eigenen Namen, keiner kennt sein wirkliches Antlitz” (Léon Bloy)",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2119,13 +2118,13 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 15.0, 495.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"kai-conductor-click-gain" : [ 5.984252 ],
+										"kai-conductor-click-gain" : [ -6.0 ],
 										"kai-tape-gain" : [ -6.0 ],
-										"kai-violin-click-gain" : [ 0.0 ]
+										"kai-violin-click-gain" : [ -6.0 ]
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u602010514"
+									"varname" : "u135005129"
 								}
 
 							}
@@ -3071,7 +3070,7 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1095.0, 345.0, 120.0, 30.0 ],
+									"patching_rect" : [ 285.0, 285.0, 120.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 285.0, 285.0, 120.0, 30.0 ]
 								}
@@ -3085,7 +3084,7 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 390.0, 345.0, 120.0, 30.0 ],
+									"patching_rect" : [ 150.0, 285.0, 120.0, 30.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 150.0, 285.0, 120.0, 30.0 ]
 								}
@@ -3300,7 +3299,7 @@
 									"name" : "cs.2click-outputs.maxpat",
 									"numinlets" : 6,
 									"numoutlets" : 0,
-									"patching_rect" : [ 15.0, 345.0, 120.0, 105.0 ],
+									"patching_rect" : [ 15.0, 285.0, 120.0, 105.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 15.0, 285.0, 120.0, 105.0 ]
 								}
@@ -4114,7 +4113,7 @@
 									}
 ,
 									"text" : "autopattr",
-									"varname" : "u292010489"
+									"varname" : "u637005104"
 								}
 
 							}
@@ -5746,16 +5745,16 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1::obj-18::obj-25" : [ "pedal-on-off", "pedal-switch", 0 ],
-			"obj-2::obj-45" : [ "kai-conductor-click-gain", "conductor click", 0 ],
-			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ],
-			"obj-1::obj-9" : [ "power-attack-time", "attack", 0 ],
 			"obj-2::obj-7" : [ "kai-tape-gain", "tape", 0 ],
-			"obj-1::obj-18::obj-26" : [ "test-indicator", "test", 0 ],
 			"obj-1::obj-10" : [ "power-release-time", "release", 0 ],
+			"obj-1::obj-18::obj-25" : [ "pedal-on-off", "pedal-switch", 0 ],
 			"obj-2::obj-9" : [ "kai-violin-click-gain", "violin click", 0 ],
 			"obj-13::obj-6" : [ "soundflower-input-gain", "soundflower input", 0 ],
-			"obj-1::obj-4" : [ "ian-white-noise-gain~", "gain", 0 ]
+			"obj-1::obj-18::obj-13" : [ "pedal-polarity", "pedal-polarity", 0 ],
+			"obj-1::obj-4" : [ "ian-white-noise-gain~", "gain", 0 ],
+			"obj-1::obj-18::obj-26" : [ "test-indicator", "test", 0 ],
+			"obj-2::obj-45" : [ "kai-conductor-click-gain", "conductor click", 0 ],
+			"obj-1::obj-9" : [ "power-attack-time", "attack", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

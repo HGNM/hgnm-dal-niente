@@ -22,7 +22,7 @@
 			"2" : 			{
 				"id" : 2,
 				"data" : 				{
-					"IanPower::ian-white-noise-gain~" : [ -43.715481 ],
+					"IanPower::ian-white-noise-gain~" : [ -47.904457 ],
 					"IanPower::midi-input-device" : [ "USB O2" ],
 					"IanPower::power-attack-time" : [ 30.0 ],
 					"IanPower::power-release-time" : [ 250.0 ],

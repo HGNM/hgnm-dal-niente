@@ -1985,6 +1985,7 @@
 						"tags" : "",
 						"showontab" : 0,
 						"title" : "Kai Johannes Polzhofer: “Keiner kennt seinen eigenen Namen, keiner kennt sein wirkliches Antlitz” (Léon Bloy)",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2118,9 +2119,9 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 15.0, 495.0, 59.5, 20.0 ],
 									"restore" : 									{
-										"kai-conductor-click-gain" : [ -6.0 ],
+										"kai-conductor-click-gain" : [ 5.984252 ],
 										"kai-tape-gain" : [ -6.0 ],
-										"kai-violin-click-gain" : [ -6.0 ]
+										"kai-violin-click-gain" : [ 0.0 ]
 									}
 ,
 									"text" : "autopattr",
@@ -4107,7 +4108,7 @@
 									"patching_rect" : [ 360.5, 370.0, 59.5, 20.0 ],
 									"restore" : 									{
 										"ian-white-noise-gain~" : [ -6.0 ],
-										"midi-input-device" : [ "IAC Driver Bus 1" ],
+										"midi-input-device" : [ "USB O2" ],
 										"power-attack-time" : [ 50.0 ],
 										"power-release-time" : [ 1000.0 ]
 									}

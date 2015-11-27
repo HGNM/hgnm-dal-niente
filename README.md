@@ -4,9 +4,9 @@ Performance materials for pieces performed at the Harvard Group for New Music’
 
 ## Pieces
 
-* **Kai Johannes Polzhofer**    
+* [**Kai Johannes Polzhofer**](http://kaijohannespolzhofer.com/)    
 _“Keiner kennt seinen eigenen Namen, keiner kennt sein wirkliches Antlitz” (Léon Bloy)_
-* **Ian Power**    
+* [**Ian Power**](http://ianpower.net)    
 _bind me, take me, amplifier, humidifier_
 
 ## Dependencies

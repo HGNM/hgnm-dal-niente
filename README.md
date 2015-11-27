@@ -9,8 +9,14 @@ _“Keiner kennt seinen eigenen Namen, keiner kennt sein wirkliches Antlitz” (
 * **Ian Power**    
 _bind me, take me, amplifier, humidifier_
 
+## Dependencies
+
+* [**cs.2click**](https://github.com/delucis/cs.2click)    
+Best installed using Nathanaël Lécaudé’s [Max Package Downloader](https://github.com/natcl/max_package_downloader).
+
 ## Set-up
 
-1. Open __setpath.maxpat__.
-2. Quit Max.
-3. Open __dal-niente-at-harvard.maxpat__.
+1. Install dependencies.
+2. Open __setpath.maxpat__.
+3. Quit Max.
+4. Open __dal-niente-at-harvard.maxpat__.
